@@ -1,3 +1,7 @@
+* {
+    font-family: Papyrus;
+}
+
 /* Header/Nav Styling */
 
 .logo {
@@ -142,6 +146,10 @@ input {
 fieldset {
     text-align: center;
     margin-top: 5%;
+}
+
+.roll-stats {
+    width: auto;
 }
 
 /* Mobile Responsive */
