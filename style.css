@@ -1,12 +1,10 @@
-header {
-    position: relative;
-}
+/* Header/Nav Styling */
 
 .logo {
     line-height: 0;
     margin: 0;
     display: inline-block;
-    height: 165px;
+    height: 100px;
 }
 
 #logo {
@@ -111,6 +109,39 @@ nav ul > li {
 .lightbox-prev:hover,
 .lightbox-next:hover {
     opacity: .8;
+}
+
+
+/* Fast Stats */
+.stats-img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.form-container{
+    background-color: #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.form-row {
+    text-align: center;
+    margin-top: 10px;
+}
+
+input {
+    width: 75px;
+}
+
+fieldset {
+    text-align: center;
+    margin-top: 5%;
 }
 
 /* Mobile Responsive */
